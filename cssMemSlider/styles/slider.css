@@ -1,0 +1,56 @@
+.carousel {
+    position: relative;
+}
+
+.slider-box {
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+}
+
+.slides {
+    width: 600px;
+    height: auto;
+    overflow: hidden;
+    display: flex;
+}
+
+.navigation {
+    display: flex;
+    position: absolute;
+    bottom: 30px;
+    right: 125px;
+}
+
+.s1{
+    
+}
+
+.slide {
+    transition: all .6s ease;
+}
+
+#s1:checked ~ .m-l {
+    margin-left: 0;
+    color: red;
+}
+
+#s2:checked ~ .m-l {
+    margin-left: -100%;
+}
+
+#s3:checked ~ .m-l {
+    margin-left: -200%;
+}
+
+#s4:checked ~ .m-l {
+    margin-left: -300%;
+}
+
+#s5:checked ~ .m-l {
+    margin-left: -400%;
+}
+
+li > img {
+    padding-bottom: 1rem;
+}
