@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="UTF-8" />  
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>CSS Mem Slider</title>
@@ -14,7 +14,7 @@
 
 <body class="body">
 
-  <main class="main">
+  <main class="main container">
     <header class="header">
       <h1>CSS Mem Slider</h1>
     </header>
@@ -32,23 +32,23 @@
 
             <li class="slide slider-1 m-l">
               <img src="./assets/img/slider/1.jpg" />
-              <span>Сверстать всех наверх</span>
+              <span class="sp1">Сверстать всех наверх</span>
             </li>
             <li class="slide slider-2">
               <img src="./assets/img/slider/2.jpg" />
-              <span>Программисты - новички</span>
+              <span class="sp2">Программисты - новички</span>
             </li>
             <li class="slide slider-3">
               <img src="./assets/img/slider/3.jpg" />
-              <span>Опытные программисты</span>
+              <span class="sp3">Опытные программисты</span>
             </li>
             <li class="slide slider-4">
               <img src="./assets/img/slider/4.jpg" />
-              <span>Админ! Ты дома?</span>
+              <span class="sp4">Админ! Ты дома?</span>
             </li>
             <li class="slide slider-5">
               <img src="./assets/img/slider/5.jpg" />
-              <span>JS Java</span>
+              <span class="sp5">JS Java</span>
             </li>
           </ul>
         </div>
@@ -63,28 +63,28 @@
       </div>
     </section>
     <section class="self-test">
-      <h2 style="font-size: 2rem;padding-left: 20px;text-align: center; padding: 1rem;">Самопроверка</h2>
-      <ol style="list-style-type: style; font-size: 1rem;padding-left: 20px;">
-        <li>Выполнено всё из секции Требования к репозиторию и как сабмитить задание +30</li>
-        <li>Слайдер позиционируется с равными отступами слева и справа +10</li>
-        <li>Соблюдено расположение картинок, подписей к ним и контролов +10</li>
-        <li>Имеется анимация для смены картинок +20</li>
-        <li>Имеется анимация для смены подписей к картинкам +10</li>
-        <li>Подписи к картинкам должны быть строковыми значениями (текстом), т.е. текст не должен быть частью картинки
-          +15</li>
-        <li>Каждый контрол имеет большую область нажатия, чем размер самого контрола +5</li>
-        <li>Контролы имеют интерактивность (момент наведения, момент нажатия, активный контрол, изменение курсора) +10
-        </li>
-        <li>Имеется мобилная версия слайдера и соблюдено расположение картинок, подписей к ним и контролов +20</li>
-        <li>Используются относительные едициы измерения для основных блоков <br> (картинки, контролы, подписи) (rem, em,
-          %, vh, vw, fr and etc... ) - присутствует "резиновость" слайдера +10</li>
-        <li>Все блоки/составные части слайдера (контролы, картинки, подписи к <br> слайдеру) находя в базовом потоке
-          дом-элементов, не позиционируются с помощью top, left, right, bottom. Не используются псевдоэлементы. +10</li>
-      </ol>
+      <h2 style="font-size: 2rem;">Самопроверка</h2>
+      <div class="self-test__content">
+        <span>Выполнено всё из секции Требования к репозиторию и как сабмитить задание +30  <br></span>
+        <span>Слайдер позиционируется с равными отступами слева и справа +10<br></span>
+        <span>Соблюдено расположение картинок, подписей к ним и контролов +10<br></span>
+        <span>Имеется анимация для смены картинок +20<br></span>
+        <span>Имеется анимация для смены подписей к картинкам +10<br></span>
+        <span>Подписи к картинкам должны быть строковыми значениями (текстом), т.е. текст не должен быть частью картинки
+          +15<br></span>
+        <span>Каждый контрол имеет большую область нажатия, чем размер самого контрола +5<br></span>
+        <span>Контролы имеют интерактивность (момент наведения, момент нажатия, активный контрол, изменение курсора) +10<br>
+        </span>
+        <span>Имеется мобилная версия слайдера и соблюдено расположение картинок, подписей к ним и контролов +20<br></span>
+        <span>Используются относительные едициы измерения для основных блоков  (картинки, контролы, подписи) (rem, em,
+          %, vh, vw, fr and etc... ) - присутствует "резиновость" слайдера +10<br></span>
+        <span>Все блоки/составные части слайдера (контролы, картинки, подписи к  слайдеру) находя в базовом потоке<br>
+          дом-элементов, не позиционируются с помощью top, left, right, bottom.  Не используются псевдоэлементы. +10<br></span>
+      </div>
     </section>
   </main>
-  <footer>
-    <div class="footer_content">
+  <footer class="container" >
+    <div class="footer_content ">
       <time datetime="2022">2022</time>
       <a href="https://github.com/pestler" style="color: black;">Aleh Kuis</a>
       <a href="https://rs.school/js/" target="_blank">

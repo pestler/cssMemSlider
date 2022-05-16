@@ -2,6 +2,13 @@
     position: relative;
 }
 
+.box_carousel{
+    background: black;
+    width: 790px;
+    height: 510px;    
+    margin-bottom: 3rem;
+}
+
 .slider-box {
     display: flex;
     justify-content: center;
@@ -22,35 +29,60 @@
     right: 125px;
 }
 
-.s1{
-    
+li>img {
+    padding-bottom: 1rem;
 }
 
 .slide {
     transition: all .6s ease;
 }
 
-#s1:checked ~ .m-l {
+#s1:checked~.m-l {
     margin-left: 0;
-    color: red;
 }
 
-#s2:checked ~ .m-l {
+
+#s2:checked~.m-l {
     margin-left: -100%;
 }
 
-#s3:checked ~ .m-l {
+#s3:checked~.m-l {
     margin-left: -200%;
 }
 
-#s4:checked ~ .m-l {
+#s4:checked~.m-l {
     margin-left: -300%;
 }
 
-#s5:checked ~ .m-l {
+#s5:checked~.m-l {
     margin-left: -400%;
 }
 
-li > img {
-    padding-bottom: 1rem;
+
+
+#s1:checked~.slide .sp1 {
+    transition: all 6s ease;
+    color: rgb(160, 112, 41);
+
+}
+
+#s2:checked~.slide .sp2 {
+    transition: all 6s ease;
+    color: rgb(160, 112, 41);
+
+}
+
+#s3:checked~.slide .sp3 {
+    transition: all 6s ease;
+    color: rgb(160, 112, 41);
+}
+
+#s4:checked~.slide .sp4 {
+    transition: all 6s ease;
+    color: rgb(160, 112, 41);
+}
+
+#s5:checked~.slide .sp5 {
+    transition: all 6s ease;
+    color: rgb(160, 112, 41);
 }
