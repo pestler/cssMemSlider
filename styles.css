@@ -109,3 +109,8 @@ input[name=s] {
 .slide>img {
     padding-bottom: 60px;
 }
+
+.navigation {
+    margin-right: 9rem;
+    margin-bottom: 3rem;
+}
