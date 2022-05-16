@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CSS Mem Slider</title>
+  <link rel="stylesheet" href="./styles/reset.css" />
+  <link rel="stylesheet" href="./styles/styles.css" />
+  <link rel="stylesheet" href="./styles/slider.css" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/img/favicon.ico">
+</head>
+
+<body class="body">
+
+  <main class="main container">
+    <header class="header">
+      <h1>CSS Mem Slider</h1>
+    </header>
+    <section class="section">
+      <div class="carousel box_carousel">
+        <div class="slider-box">
+          <ul class="slides ">
+
+            <input type="radio" id="s1" name="s" checked />
+            <input type="radio" id="s2" name="s" />
+            <input type="radio" id="s3" name="s" />
+            <input type="radio" id="s4" name="s" />
+            <input type="radio" id="s5" name="s" />
+
+
+            <li class="slide slider-1 m-l">
+              <img src="./assets/img/slider/1.jpg" />
+              <span class="sp1">Сверстать всех наверх</span>
+            </li>
+            <li class="slide slider-2">
+              <img src="./assets/img/slider/2.jpg" />
+              <span class="sp2">Программисты - новички</span>
+            </li>
+            <li class="slide slider-3">
+              <img src="./assets/img/slider/3.jpg" />
+              <span class="sp3">Опытные программисты</span>
+            </li>
+            <li class="slide slider-4">
+              <img src="./assets/img/slider/4.jpg" />
+              <span class="sp4">Админ! Ты дома?</span>
+            </li>
+            <li class="slide slider-5">
+              <img src="./assets/img/slider/5.jpg" />
+              <span class="sp5">JS Java</span>
+            </li>
+          </ul>
+        </div>
+        <div class="navigation">
+          <label for="s1"></label>
+          <label for="s2"></label>
+          <label for="s3"></label>
+          <label for="s4"></label>
+          <label for="s5"></label>
+        </div>
+
+      </div>
+    </section>
+    <section class="self-test">
+      <h2 style="font-size: 2rem;">Самопроверка</h2>
+      <div class="self-test__content">
+        <span>Выполнено всё из секции Требования к репозиторию и как сабмитить задание +30  <br></span>
+        <span>Слайдер позиционируется с равными отступами слева и справа +10<br></span>
+        <span>Соблюдено расположение картинок, подписей к ним и контролов +10<br></span>
+        <span>Имеется анимация для смены картинок +20<br></span>
+        <span>Имеется анимация для смены подписей к картинкам +10<br></span>
+        <span>Подписи к картинкам должны быть строковыми значениями (текстом), т.е. текст не должен быть частью картинки
+          +15<br></span>
+        <span>Каждый контрол имеет большую область нажатия, чем размер самого контрола +5<br></span>
+        <span>Контролы имеют интерактивность (момент наведения, момент нажатия, активный контрол, изменение курсора) +10<br>
+        </span>
+        <span>Имеется мобилная версия слайдера и соблюдено расположение картинок, подписей к ним и контролов +20<br></span>
+        <span>Используются относительные едициы измерения для основных блоков  (картинки, контролы, подписи) (rem, em,
+          %, vh, vw, fr and etc... ) - присутствует "резиновость" слайдера +10<br></span>
+        <span>Все блоки/составные части слайдера (контролы, картинки, подписи к  слайдеру) находя в базовом потоке<br>
+          дом-элементов, не позиционируются с помощью top, left, right, bottom.  Не используются псевдоэлементы. +10<br></span>
+      </div>
+    </section>
+  </main>
+  <footer class="container" >
+    <div class="footer_content ">
+      <time datetime="2022">2022</time>
+      <a href="https://github.com/pestler" style="color: black;">Aleh Kuis</a>
+      <a href="https://rs.school/js/" target="_blank">
+        <img src="./assets/svg/logo-rsschool.svg" style="width:3rem; height:2rem;" alt="rs.school js" />        
+      </a>
+      <a href="https://github.com/pestler">
+        <img src="./assets/svg/logo-github.svg"  style="width:1.5rem; height:1.5rem;"  alt="github"/>
+      </a>
+    </div>
+  </footer>
+
+</body>
+
+</html>
