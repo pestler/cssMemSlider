@@ -101,3 +101,7 @@ input[name=s] {
 
 
 /*media*/
+.box_carousel {
+    height: 550px;
+    padding-bottom: 3rem;
+}
