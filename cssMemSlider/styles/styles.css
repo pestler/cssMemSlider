@@ -58,6 +58,7 @@ input[name=s] {
 }
 
 .ctrl {
+    display: block;
     width: 1rem;
     height: 1rem;
     border-radius: 50%;
@@ -74,7 +75,7 @@ input[name=s] {
     background: white;
 }
 
-.navigation>label:active {
+.ctrl:active {
     background: greenyellow;
 }
 
@@ -98,6 +99,15 @@ input[name=s] {
 .link {
     display: flex;
     justify-content: center;
+}
+
+.navigation > label{
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
