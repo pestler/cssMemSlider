@@ -46,7 +46,7 @@ li>img {
 }
 
 #s3:checked~.m-l {
-    margin-left: -200%;
+    margin-left: -200%;    
 }
 
 #s4:checked~.m-l {
@@ -57,29 +57,29 @@ li>img {
     margin-left: -400%;
 }
 
-#l1:checked~.m-l {
-    background: white;
-    border: solid 1px rgb(53, 115, 139);
+#s1:checked~.navigation  .ctrl1 {
+    background: white
+    
 }
 
-#l2:checked~.m-l {
-    background: white;
-    border: solid 1px rgb(53, 115, 139);
+#s2:checked~.navigation  .ctrl2{
+    background: white
+    
 }
 
-#l3:checked~.m-l {
-    background: white;
-    border: solid 1px rgb(53, 115, 139);
+#s3:checked~.navigation .ctrl3 {
+    background: white
+    
 }
 
-#l4:checked~.m-l {
-    background: white;
-    border: solid 1px rgb(53, 115, 139);
+#s4:checked~.navigation  .ctrl4 {
+    background: white
+    
 }
 
-#l5:checked~.m-l {
-    background: white;
-    border: solid 1px rgb(53, 115, 139);
+#s5:checked~.navigation  .ctrl5 {
+    background: white
+    
 }
 
 
